@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@700&display=swap');
+
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Domine', serif;
+}
+
+.button {
+    width: 66px;
+    padding: 20px;
+    margin: 0 3px;
+    border: 2px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+}
+
+.row input {
+    width: 291px;
+    font-size: 20px;
+    margin: 0;
+    padding: 10px 0px;
+    border: 2px solid black;
+    border-radius: 5px;
+
+}
+
+.button:active {
+    background-color: black;
+    color: crimson;
+}
+
+.container {
+    width: 400px;
+
+    box-shadow: 0 8px 50px -7px black;
+    background: #3A4655;
+}
